@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_generative_ai_prompt_config">
+    <sys_generative_ai_prompt_config action="INSERT_OR_UPDATE">
+        <ai_config display_value="OneExtend Capability Definition: Custom summary Now LLM Generic">c36a652b2b4c5250a5aefdcc6e91bfe9</ai_config>
+        <definition display_value="Custom summary Now LLM Generic">eec721672b4c5250a5aefdcc6e91bfa6</definition>
+        <filter_properties>{}</filter_properties>
+        <filter_type>default</filter_type>
+        <is_default>true</is_default>
+        <order>0</order>
+        <sys_class_name>sys_generative_ai_prompt_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-22 05:22:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4b6a652b2b4c5250a5aefdcc6e91bfea</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>c36a652b2b4c5250a5aefdcc6e91bfe9</sys_name>
+        <sys_package display_value="Warranty Claims" source="x_snc_w_claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warranty Claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_scope>
+        <sys_update_name>sys_generative_ai_prompt_config_4b6a652b2b4c5250a5aefdcc6e91bfea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-22 05:22:41</sys_updated_on>
+    </sys_generative_ai_prompt_config>
+</record_update>

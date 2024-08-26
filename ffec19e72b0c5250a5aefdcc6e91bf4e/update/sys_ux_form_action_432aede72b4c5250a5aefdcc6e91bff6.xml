@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action">
+    <sys_ux_form_action action="INSERT_OR_UPDATE">
+        <action_type>ui_action</action_type>
+        <active>true</active>
+        <declarative_action/>
+        <description/>
+        <name>Custom summary Now LLM Generic</name>
+        <specificity>20</specificity>
+        <sys_class_name>sys_ux_form_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-22 05:21:26</sys_created_on>
+        <sys_id>432aede72b4c5250a5aefdcc6e91bff6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Custom summary Now LLM Generic</sys_name>
+        <sys_package display_value="Warranty Claims" source="x_snc_w_claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warranty Claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_scope>
+        <sys_update_name>sys_ux_form_action_432aede72b4c5250a5aefdcc6e91bff6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-22 05:21:26</sys_updated_on>
+        <table>x_snc_w_claims_claim</table>
+        <ui_action display_value="Custom summary Now LLM Generic">872a6de72b4c5250a5aefdcc6e91bf76</ui_action>
+    </sys_ux_form_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=432aede72b4c5250a5aefdcc6e91bff6"/>
+</record_update>

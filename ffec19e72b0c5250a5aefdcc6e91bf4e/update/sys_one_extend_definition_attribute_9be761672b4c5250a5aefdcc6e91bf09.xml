@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_definition_attribute">
+    <sys_one_extend_definition_attribute action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <apply_filter>false</apply_filter>
+        <attribute_label/>
+        <capability display_value="Custom summary Now LLM Generic">d2c7e1272b4c5250a5aefdcc6e91bfa6</capability>
+        <choice_list/>
+        <contains_large_input>false</contains_large_input>
+        <data_type>glide_record</data_type>
+        <default_value/>
+        <definition/>
+        <description/>
+        <hidden>false</hidden>
+        <label>Claim</label>
+        <mandatory>false</mandatory>
+        <name>claim</name>
+        <order/>
+        <schema>{"tableName":"x_snc_w_claims_claim","sysId":"9610a12f2b0c5250a5aefdcc6e91bf57"}</schema>
+        <sys_class_name>sys_one_extend_definition_attribute</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-22 05:11:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9be761672b4c5250a5aefdcc6e91bf09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>claim</sys_name>
+        <sys_package display_value="Warranty Claims" source="x_snc_w_claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warranty Claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_scope>
+        <sys_update_name>sys_one_extend_definition_attribute_9be761672b4c5250a5aefdcc6e91bf09</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-22 05:11:37</sys_updated_on>
+        <translate>false</translate>
+        <truncate>false</truncate>
+        <type>input</type>
+    </sys_one_extend_definition_attribute>
+    <sys_translated_text action="delete_multiple" query="documentkey=9be761672b4c5250a5aefdcc6e91bf09"/>
+</record_update>

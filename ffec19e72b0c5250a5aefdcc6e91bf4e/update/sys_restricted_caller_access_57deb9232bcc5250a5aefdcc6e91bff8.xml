@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_restricted_caller_access">
+    <sys_restricted_caller_access action="INSERT_OR_UPDATE">
+        <description/>
+        <operation>execute</operation>
+        <rca_type>real_rca</rca_type>
+        <source>4d9a83679f9202107c0e2305fa0a1c8c</source>
+        <source_scope display_value="Global">global</source_scope>
+        <source_table>sys_hub_action_type_definition</source_table>
+        <source_type>16</source_type>
+        <status>2</status>
+        <sys_class_name>sys_restricted_caller_access</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-22 06:51:51</sys_created_on>
+        <sys_id>57deb9232bcc5250a5aefdcc6e91bff8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>global</sys_name>
+        <sys_package display_value="Warranty Claims" source="x_snc_w_claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warranty Claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_scope>
+        <sys_update_name>sys_restricted_caller_access_57deb9232bcc5250a5aefdcc6e91bff8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-22 06:51:51</sys_updated_on>
+        <target>cecdb5ef2b8c5250a5aefdcc6e91bff8</target>
+        <target_scope display_value="Warranty Claims">ffec19e72b0c5250a5aefdcc6e91bf4e</target_scope>
+        <target_table>sys_script_include</target_table>
+        <target_type>2</target_type>
+    </sys_restricted_caller_access>
+</record_update>

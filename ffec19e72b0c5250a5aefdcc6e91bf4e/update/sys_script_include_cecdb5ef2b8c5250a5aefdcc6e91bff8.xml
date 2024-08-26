@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_snc_w_claims.GetWorknotes</api_name>
+        <caller_access>1</caller_access>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>GetWorknotes</name>
+        <script><![CDATA[var GetWorknotes = Class.create();
+GetWorknotes.prototype = {
+    initialize: function() {
+    },
+	getWorknotes: function(claim_id) {
+		gs.info("Claim ID: " + claim_id);
+		var claim = new GlideRecord("x_snc_w_claims_claim");
+
+		var output = {output: "Unable to retrieve worknotes"};
+		if (claim.get(claim_id)) {
+			gs.info("Claim work notes: " + claim.work_notes.getJournalEntry(-1));
+			return claim.work_notes.getJournalEntry(-1);
+		}
+
+		gs.info("output.output: " + output.output);
+		
+		return JSON.stringify(output);
+	},
+	getWorknotesOld: function(claim_id) {
+		gs.info("Claim ID: " + claim_id);
+		var claim = new GlideRecord("x_snc_w_claims_claim");
+
+		if (claim.get(claim_id)) {
+			gs.info("Claim work notes: " + claim.work_notes.getJournalEntry(-1));
+			return claim.work_notes.getJournalEntry(-1);
+		}
+		
+		return "Unable to retrieve worknotes";
+	},
+    type: 'GetWorknotes'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-22 06:48:34</sys_created_on>
+        <sys_id>cecdb5ef2b8c5250a5aefdcc6e91bff8</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>GetWorknotes</sys_name>
+        <sys_package display_value="Warranty Claims" source="x_snc_w_claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Warranty Claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_scope>
+        <sys_update_name>sys_script_include_cecdb5ef2b8c5250a5aefdcc6e91bff8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-22 07:29:01</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>cecdb5ef2b8c5250a5aefdcc6e91bff8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-22 06:48:34</sys_created_on>
+        <sys_id>931eb5ef2b8c5250a5aefdcc6e91bf11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-22 06:48:34</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

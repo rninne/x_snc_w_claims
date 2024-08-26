@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_resource_mapping">
+    <sys_one_extend_resource_mapping action="DELETE">
+        <active>true</active>
+        <applicability_condition/>
+        <applicability_condition_table/>
+        <applicability_failed_policy/>
+        <applicability_script><![CDATA[(function(featureInput, previousFeatureOutputs) {  
+	/* customize condition logic here, return true or false */  
+	return true;
+  })(featureInput, previousFeatureOutputs);]]></applicability_script>
+        <applicability_type/>
+        <error_handler_script><![CDATA[(function handleError() {  
+	// customize condition logic here,  
+	return ;
+})();]]></error_handler_script>
+        <error_policy/>
+        <parent_capability display_value="Custom summary Now LLM Generic">d2c7e1272b4c5250a5aefdcc6e91bfa6</parent_capability>
+        <resource_capability display_value="Get Worknotes">fd1475e32b8c5250a5aefdcc6e91bf71</resource_capability>
+        <resource_name>Get Worknotes</resource_name>
+        <sys_class_name>sys_one_extend_resource_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-22 06:31:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>212afdab2b8c5250a5aefdcc6e91bf3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Worknotes</sys_name>
+        <sys_package display_value="Warranty Claims" source="x_snc_w_claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warranty Claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_scope>
+        <sys_update_name>sys_one_extend_resource_mapping_212afdab2b8c5250a5aefdcc6e91bf3f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-22 06:31:15</sys_updated_on>
+    </sys_one_extend_resource_mapping>
+    <sys_translated_text action="DELETE" query="documentkey=212afdab2b8c5250a5aefdcc6e91bf3f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Warranty Claims">ffec19e72b0c5250a5aefdcc6e91bf4e</application>
+        <file_path/>
+        <instance_id>cdba8ae7eb9fc690cbbffceacad0cdb9</instance_id>
+        <instance_name>na4cr</instance_name>
+        <name>sys_one_extend_resource_mapping_212afdab2b8c5250a5aefdcc6e91bf3f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_one_extend_resource_mapping"&gt;&lt;sys_one_extend_resource_mapping action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applicability_condition/&gt;&lt;applicability_condition_table/&gt;&lt;applicability_failed_policy/&gt;&lt;applicability_script&gt;&lt;![CDATA[(function(featureInput, previousFeatureOutputs) {  
+	/* customize condition logic here, return true or false */  
+	return true;
+  })(featureInput, previousFeatureOutputs);]]&gt;&lt;/applicability_script&gt;&lt;applicability_type/&gt;&lt;error_handler_script&gt;&lt;![CDATA[(function handleError() {  
+	// customize condition logic here,  
+	return ;
+})();]]&gt;&lt;/error_handler_script&gt;&lt;error_policy/&gt;&lt;parent_capability display_value="Custom summary Now LLM Generic"&gt;d2c7e1272b4c5250a5aefdcc6e91bfa6&lt;/parent_capability&gt;&lt;resource_capability display_value="Get Worknotes"&gt;fd1475e32b8c5250a5aefdcc6e91bf71&lt;/resource_capability&gt;&lt;resource_name&gt;Get Worknotes&lt;/resource_name&gt;&lt;sys_class_name&gt;sys_one_extend_resource_mapping&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-08-22 06:31:15&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;212afdab2b8c5250a5aefdcc6e91bf3f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Get Worknotes&lt;/sys_name&gt;&lt;sys_package display_value="Warranty Claims" source="x_snc_w_claims"&gt;ffec19e72b0c5250a5aefdcc6e91bf4e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Warranty Claims"&gt;ffec19e72b0c5250a5aefdcc6e91bf4e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_one_extend_resource_mapping_212afdab2b8c5250a5aefdcc6e91bf3f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-08-22 06:31:15&lt;/sys_updated_on&gt;&lt;/sys_one_extend_resource_mapping&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=212afdab2b8c5250a5aefdcc6e91bf3f"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1731034518</payload_hash>
+        <record_name>Get Worknotes</record_name>
+        <reverted_from/>
+        <source>097f95eb2b0c5250a5aefdcc6e91bf54</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-22 06:31:15</sys_created_on>
+        <sys_id>a12a71eb2b8c5250a5aefdcc6e91bf40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19178c840ff0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-22 06:31:15</sys_updated_on>
+        <type>OneExtend Resource Mapping</type>
+        <update_guid>e52afdab7e8c52500e46d78669c4c041</update_guid>
+        <update_guid_history>e52afdab7e8c52500e46d78669c4c041:1731034518</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-22 06:37:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_one_extend_resource_mapping">sys_one_extend_resource_mapping</sys_db_object>
+        <sys_id>2c5608c2aa574a80abe4f7335c0e4000</sys_id>
+        <sys_metadata>212afdab2b8c5250a5aefdcc6e91bf3f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Worknotes</sys_name>
+        <sys_package display_value="Warranty Claims" source="x_snc_w_claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Warranty Claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_scope>
+        <sys_scope_delete display_value="">086d9746d69e4ddc985271de4a0a1429</sys_scope_delete>
+        <sys_update_name>sys_one_extend_resource_mapping_212afdab2b8c5250a5aefdcc6e91bf3f</sys_update_name>
+        <sys_update_version display_value="sys_one_extend_resource_mapping_212afdab2b8c5250a5aefdcc6e91bf3f">a12a71eb2b8c5250a5aefdcc6e91bf40</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-22 06:37:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

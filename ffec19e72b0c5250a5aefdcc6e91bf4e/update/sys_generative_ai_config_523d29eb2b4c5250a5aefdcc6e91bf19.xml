@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_generative_ai_config">
+    <sys_generative_ai_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <additional_configurations>{}</additional_configurations>
+        <definition>eec721672b4c5250a5aefdcc6e91bfa6</definition>
+        <definition_table>sys_one_extend_capability_definition</definition_table>
+        <max_tokens>1000</max_tokens>
+        <min_word_count>-1</min_word_count>
+        <model>llm_generic</model>
+        <name>Worknotes Summary</name>
+        <parent/>
+        <prompt>You are a customer service representative. Summarize the repair agent work notes of the following warranty claim in no more than 250 words.
+The summary should only contain two sections "Cause of fault" and "Resolution actions".
+You are given the following details from the claim:
+Claim WORK_NOTES:{{getWorknotes.output}}</prompt>
+        <prompt_template_role>user</prompt_template_role>
+        <request_tokens>6942</request_tokens>
+        <state>draft</state>
+        <sys_class_name>sys_generative_ai_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-22 05:34:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>523d29eb2b4c5250a5aefdcc6e91bf19</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>eec721672b4c5250a5aefdcc6e91bfa6</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Warranty Claims" source="x_snc_w_claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warranty Claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_scope>
+        <sys_update_name>sys_generative_ai_config_523d29eb2b4c5250a5aefdcc6e91bf19</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-22 07:27:57</sys_updated_on>
+        <temperature>0.2</temperature>
+        <version>1</version>
+    </sys_generative_ai_config>
+</record_update>

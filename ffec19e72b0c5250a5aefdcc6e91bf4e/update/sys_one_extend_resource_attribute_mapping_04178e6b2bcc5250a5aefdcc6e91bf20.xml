@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_resource_attribute_mapping">
+    <sys_one_extend_resource_attribute_mapping action="INSERT_OR_UPDATE">
+        <attribute_value_script><![CDATA[(function execute(payload) {  
+	// payload is stringified and contains _meta  
+	// return value for the attribute  
+	return '';
+})(payload);]]></attribute_value_script>
+        <attribute_value_template>{{claim.sys_id}}</attribute_value_template>
+        <attribute_value_type>template</attribute_value_type>
+        <resource_attribute_name display_value="claim_id">e18e35232bcc5250a5aefdcc6e91bf8c</resource_attribute_name>
+        <resource_mapping display_value="getWorknotes">08178e6b2bcc5250a5aefdcc6e91bf1d</resource_mapping>
+        <sys_class_name>sys_one_extend_resource_attribute_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-22 07:27:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>04178e6b2bcc5250a5aefdcc6e91bf20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Warranty Claims" source="x_snc_w_claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warranty Claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_scope>
+        <sys_update_name>sys_one_extend_resource_attribute_mapping_04178e6b2bcc5250a5aefdcc6e91bf20</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-22 07:27:40</sys_updated_on>
+    </sys_one_extend_resource_attribute_mapping>
+</record_update>
