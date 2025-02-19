@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Impersonate Beth Anglin, create a new warranty claim record, set priority to 1 - Critical, and check Escalation field visibility and mandatory status</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>true</fail_on_server_error>
+        <name>Escalation Required When P1</name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-12 06:48:49</sys_created_on>
+        <sys_id>8246e909f13c4785b65bd22920eca904</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Escalation Required When P1</sys_name>
+        <sys_package display_value="Warranty Claims" source="x_snc_w_claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warranty Claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_scope>
+        <sys_update_name>sys_atf_test_8246e909f13c4785b65bd22920eca904</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-12 06:50:13</sys_updated_on>
+        <test_origin>now_assist</test_origin>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=8246e909f13c4785b65bd22920eca904"/>
+</record_update>

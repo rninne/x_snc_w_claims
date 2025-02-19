@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>false</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Insert a record into 'x_snc_warranty_t_0_warranty_claims' with the following values:
+
+Confirm the record was successfully inserted</description>
+        <display_name>Record Insert</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>2</order>
+        <step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:21:44</sys_created_on>
+        <sys_id>671831466210495caf3c3c15c4345c0c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Record Insert</sys_name>
+        <sys_package display_value="Warranty Claims" source="x_snc_w_claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warranty Claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_scope>
+        <sys_update_name>sys_atf_step_671831466210495caf3c3c15c4345c0c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:21:47</sys_updated_on>
+        <table>x_snc_warranty_t_0_warranty_claims</table>
+        <test display_value="Steve Warranty test test">1c49888435004ac58d0fa524a60c9367</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=671831466210495caf3c3c15c4345c0c"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>671831466210495caf3c3c15c4345c0c</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:21:44</sys_created_on>
+        <sys_id>6844223acfe74733a3f1111c4a259a94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:21:44</sys_updated_on>
+        <value>x_snc_warranty_t_0_warranty_claims</value>
+        <variable display_value="Table">90144b535320220002c6435723dc3488</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>671831466210495caf3c3c15c4345c0c</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:21:44</sys_created_on>
+        <sys_id>86cfb61b74d64dfe9b0e39b6ae62faa2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:21:44</sys_updated_on>
+        <value>record_successfully_inserted</value>
+        <variable display_value="Assert type">9024a37f671003007ba405225685efe5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>671831466210495caf3c3c15c4345c0c</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:21:44</sys_created_on>
+        <sys_id>90ea5caac04340b49d395738c06fe59e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:21:44</sys_updated_on>
+        <value/>
+        <variable display_value="Field values">dd54cf535320220002c6435723dc34fd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>671831466210495caf3c3c15c4345c0c</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:21:44</sys_created_on>
+        <sys_id>e45aa9dd295b490ba901617a3574684a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:21:44</sys_updated_on>
+        <value>false</value>
+        <variable display_value="Enforce security">e6e3c7535320220002c6435723dc3496</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_14872288df60220062fe6c7a4df26319^id=671831466210495caf3c3c15c4345c0c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Warranty Claims">ffec19e72b0c5250a5aefdcc6e91bf4e</application>
+        <file_path/>
+        <instance_id>cdba8ae7eb9fc690cbbffceacad0cdb9</instance_id>
+        <instance_name>na4cr</instance_name>
+        <name>sys_atf_step_671831466210495caf3c3c15c4345c0c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>false</active><callable_outputs/><copied_from/><description>Insert a record into 'x_snc_warranty_t_0_warranty_claims' with the following values:
+
+Confirm the record was successfully inserted</description><display_name>Record Insert</display_name><inputs/><mugshots_cache_json/><notes/><order>2</order><step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-11 14:21:44</sys_created_on><sys_id>671831466210495caf3c3c15c4345c0c</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Record Insert</sys_name><sys_package display_value="Warranty Claims" source="x_snc_w_claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_package><sys_policy/><sys_scope display_value="Warranty Claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_scope><sys_update_name>sys_atf_step_671831466210495caf3c3c15c4345c0c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-11 14:21:47</sys_updated_on><table>x_snc_warranty_t_0_warranty_claims</table><test display_value="Steve Warranty test test">1c49888435004ac58d0fa524a60c9367</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=671831466210495caf3c3c15c4345c0c"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>671831466210495caf3c3c15c4345c0c</document_key><order/><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-11 14:21:44</sys_created_on><sys_id>6844223acfe74733a3f1111c4a259a94</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-11 14:21:44</sys_updated_on><value>x_snc_warranty_t_0_warranty_claims</value><variable display_value="Table">90144b535320220002c6435723dc3488</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>671831466210495caf3c3c15c4345c0c</document_key><order/><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-11 14:21:44</sys_created_on><sys_id>86cfb61b74d64dfe9b0e39b6ae62faa2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-11 14:21:44</sys_updated_on><value>record_successfully_inserted</value><variable display_value="Assert type">9024a37f671003007ba405225685efe5</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>671831466210495caf3c3c15c4345c0c</document_key><order/><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-11 14:21:44</sys_created_on><sys_id>90ea5caac04340b49d395738c06fe59e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-11 14:21:44</sys_updated_on><value/><variable display_value="Field values">dd54cf535320220002c6435723dc34fd</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>671831466210495caf3c3c15c4345c0c</document_key><order/><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-11 14:21:44</sys_created_on><sys_id>e45aa9dd295b490ba901617a3574684a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-11 14:21:44</sys_updated_on><value>false</value><variable display_value="Enforce security">e6e3c7535320220002c6435723dc3496</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_14872288df60220062fe6c7a4df26319^id=671831466210495caf3c3c15c4345c0c"/></record_update>]]></payload>
+        <payload_hash>296715160</payload_hash>
+        <record_name>Record Insert</record_name>
+        <reverted_from/>
+        <source>9d8ab0f12b101610a5aefdcc6e91bf49</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:21:48</sys_created_on>
+        <sys_id>09e0a25b2beb1210a5aefdcc6e91bf13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194f563390f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:21:48</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>0de0a25b05eb121077ff2f30b090df12</update_guid>
+        <update_guid_history>0de0a25b05eb121077ff2f30b090df12:296715160,8de0625b3aeb12108b50bb7c182d0cc6:-1817323471,94e0625b47eb1210e60d81cffbb8a357:-726087964</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:22:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>996c9c58b6ff4b0c9c7a26147a803010</sys_id>
+        <sys_metadata>671831466210495caf3c3c15c4345c0c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Insert</sys_name>
+        <sys_package display_value="Warranty Claims" source="x_snc_w_claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Warranty Claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_scope>
+        <sys_scope_delete display_value="">086d9746d69e4ddc985271de4a0a1429</sys_scope_delete>
+        <sys_update_name>sys_atf_step_671831466210495caf3c3c15c4345c0c</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_671831466210495caf3c3c15c4345c0c">09e0a25b2beb1210a5aefdcc6e91bf13</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:22:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">eb7f6bde2b6c5610a5aefdcc6e91bf59</canvas>
+        <component display_value="Pie">96abe7e38d8790718022c5630a92176c</component>
+        <component_props>{"showLegend":true,"showHeader":true,"showLegendValue":false,"showBorder":false,"bareBorder":false,"showYGrid":false,"enableDrilldown":true,"disableTooltip":false,"scoreSize":"md","dataSources":[{"isDatabaseView":false,"allowRealTime":false,"label":"Claim","sourceType":"table","tableOrViewName":"x_snc_w_claims_claim","filterQuery":"","id":"DATA_SOURCE_ID_0","dataCategories":["trend","group","simple"]}],"metrics":[{"dataSource":"DATA_SOURCE_ID_0","id":"METRIC_ID_0","aggregateFunction":"COUNT","axisId":"primary","numberFormat":{"customFormat":false}}],"trendBy":null,"groupBy":[{"groupBy":[{"dataSource":"DATA_SOURCE_ID_0","groupByField":"priority","isRange":false,"isChoice":true,"isPaBucket":false}],"maxNumberOfGroups":"20","numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":true,"hideZeroValues":false,"disableRanges":false}],"isAIGenerated":true,"headingLevel":2,"description":"","showHeaderSeparator":false,"showRegister":true,"yAxisHidden":false,"xAxisWrapLabels":true,"xAxisTruncationType":"end","xAxisMaxLabelSize":100,"wrapTitle":true,"headerTitle":"Distribution of claims by priority","limit":5,"hideViewAll":false,"hideHeader":false,"listTitle":"Claim [x_snc_w_claims_claim]","maxColumns":4,"maxCharLimit":30,"hidePersonalization":false,"componentId":"ca2z2owd","id":"headerTitle","value":"Distribution of claims by priority","noDebounce":true,"propLabel":"Chart title","showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"newReporting":false,"showSparkline":false,"showDateRangeByDefault":false,"allowChangeDateRange":false,"configVersion":"23.0.0-ci-SNAPSHOT","showMaximumRange":false,"sortBy":"value","applyDateRange":false,"scoreType":null,"enableRealTimeUpdate":false,"colorConfig":{"type":"default"}}</component_props>
+        <h>12</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 16:47:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f18054662b209610a5aefdcc6e91bf0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Warranty Claims" source="x_snc_w_claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warranty Claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_scope>
+        <sys_update_name>par_dashboard_widget_f18054662b209610a5aefdcc6e91bf0d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 16:47:15</sys_updated_on>
+        <visualization/>
+        <w>12</w>
+        <widget_props/>
+        <x>10</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>

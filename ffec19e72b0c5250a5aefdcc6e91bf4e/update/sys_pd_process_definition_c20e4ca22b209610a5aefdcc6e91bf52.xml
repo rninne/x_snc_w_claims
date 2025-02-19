@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_process_definition">
+    <sys_pd_process_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <description>A workflow for handling product warranty claims</description>
+        <designer_state>{"diagram":{"hiddenElements":{"edges":{}}}}</designer_state>
+        <engine_major_version/>
+        <label>Claims assessment process</label>
+        <name>claims_assessment_process</name>
+        <now_assist_prompt>It begins with gathering information about the product for example: model and serial number. Document the issue with the product and check to see if the issue is related to improper use or user error. Once it's determined to be a genuine product fault, check if the fault is related to an existing known issue or recall. If it is, process the warranty claim, see "approved claim sub-process". If no known issue or recall matches the fault description, ensure that the product is still covered under warranty. To check coverage use the purchase date to determine how many days have passed since purchase. If less than 30 days, inform the customer the quickest resolution is to return the product to the place of purchase for a refund or exchange. If 30 days have passed, but less than the warranty period, begin the "approved claim sub-process". If the warranty period has expired, make a decision to offer the customer a repair at a cash rate, or a discount on a replacement product.</now_assist_prompt>
+        <process_type/>
+        <restartable>RESTARTABLE_FALSE</restartable>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <schema_version>2</schema_version>
+        <snapshot/>
+        <start_non_blocking>true</start_non_blocking>
+        <status>draft</status>
+        <sync_state>COMPLETE</sync_state>
+        <synced_on/>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 16:37:46</sys_created_on>
+        <sys_id>c20e4ca22b209610a5aefdcc6e91bf52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Claims assessment process</sys_name>
+        <sys_package display_value="Warranty Claims" source="x_snc_w_claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warranty Claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_scope>
+        <sys_update_name>sys_pd_process_definition_c20e4ca22b209610a5aefdcc6e91bf52</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 04:12:53</sys_updated_on>
+        <view_type>DIAGRAM</view_type>
+    </sys_pd_process_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=c20e4ca22b209610a5aefdcc6e91bf52"/>
+    <sys_pd_lane action="delete_multiple" query="process_definition=c20e4ca22b209610a5aefdcc6e91bf52^sys_idNOT IN060e4ca22b209610a5aefdcc6e91bf52,8a0e4ca22b209610a5aefdcc6e91bf52,4e0e4ca22b209610a5aefdcc6e91bf52,020e4ca22b209610a5aefdcc6e91bf53"/>
+    <sys_pd_lane action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_to_run/>
+        <description>Activities related to gathering information about the product</description>
+        <label>Information Gathering</label>
+        <lane_condition/>
+        <name>information_gathering</name>
+        <order>1</order>
+        <process_definition display_value="Claims assessment process">c20e4ca22b209610a5aefdcc6e91bf52</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="Immediately">b823830967fc41ddb84959d97897b1ae</start_rule>
+        <start_rule_vars/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 16:37:46</sys_created_on>
+        <sys_id>060e4ca22b209610a5aefdcc6e91bf52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 16:37:46</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_translated_text action="delete_multiple" query="documentkey=060e4ca22b209610a5aefdcc6e91bf52"/>
+    <sys_variable_value action="delete_multiple" query="document_key=060e4ca22b209610a5aefdcc6e91bf52"/>
+    <sys_pd_lane action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_to_run/>
+        <description>Activities related to analyzing the product fault</description>
+        <label>Product Fault Analysis</label>
+        <lane_condition/>
+        <name>product_fault_analysis</name>
+        <order>2</order>
+        <process_definition display_value="Claims assessment process">c20e4ca22b209610a5aefdcc6e91bf52</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="After Lanes">7407ca1ac3e02110f1f504186e40dd50</start_rule>
+        <start_rule_vars/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 16:37:46</sys_created_on>
+        <sys_id>8a0e4ca22b209610a5aefdcc6e91bf52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 16:37:46</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_translated_text action="delete_multiple" query="documentkey=8a0e4ca22b209610a5aefdcc6e91bf52"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8a0e4ca22b209610a5aefdcc6e91bf52"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_lane</document>
+        <document_key>8a0e4ca22b209610a5aefdcc6e91bf52</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 16:37:46</sys_created_on>
+        <sys_id>8f5ec0e22b209610a5aefdcc6e91bff0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 16:37:46</sys_updated_on>
+        <value>060e4ca22b209610a5aefdcc6e91bf52</value>
+        <variable display_value="Lanes">9a070e1ac3e02110f1f504186e40ddd2</variable>
+    </sys_variable_value>
+    <sys_pd_lane action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_to_run/>
+        <description>Activities related to checking warranty coverage</description>
+        <label>Warranty Coverage Check</label>
+        <lane_condition/>
+        <name>warranty_coverage_check</name>
+        <order>3</order>
+        <process_definition display_value="Claims assessment process">c20e4ca22b209610a5aefdcc6e91bf52</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="After Lanes">7407ca1ac3e02110f1f504186e40dd50</start_rule>
+        <start_rule_vars/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 16:37:47</sys_created_on>
+        <sys_id>4e0e4ca22b209610a5aefdcc6e91bf52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 16:37:47</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_translated_text action="delete_multiple" query="documentkey=4e0e4ca22b209610a5aefdcc6e91bf52"/>
+    <sys_variable_value action="delete_multiple" query="document_key=4e0e4ca22b209610a5aefdcc6e91bf52"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_lane</document>
+        <document_key>4e0e4ca22b209610a5aefdcc6e91bf52</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 16:37:47</sys_created_on>
+        <sys_id>435ec0e22b209610a5aefdcc6e91bff2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 16:37:47</sys_updated_on>
+        <value>060e4ca22b209610a5aefdcc6e91bf52</value>
+        <variable display_value="Lanes">9a070e1ac3e02110f1f504186e40ddd2</variable>
+    </sys_variable_value>
+    <sys_pd_lane action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_to_run/>
+        <description>Activities related to processing an approved warranty claim</description>
+        <label>Approved Claim Sub-process</label>
+        <lane_condition/>
+        <name>approved_claim_sub_process</name>
+        <order>4</order>
+        <process_definition display_value="Claims assessment process">c20e4ca22b209610a5aefdcc6e91bf52</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="After Lanes">7407ca1ac3e02110f1f504186e40dd50</start_rule>
+        <start_rule_vars/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 16:37:47</sys_created_on>
+        <sys_id>020e4ca22b209610a5aefdcc6e91bf53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 16:37:47</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_translated_text action="delete_multiple" query="documentkey=020e4ca22b209610a5aefdcc6e91bf53"/>
+    <sys_variable_value action="delete_multiple" query="document_key=020e4ca22b209610a5aefdcc6e91bf53"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_lane</document>
+        <document_key>020e4ca22b209610a5aefdcc6e91bf53</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 16:37:47</sys_created_on>
+        <sys_id>0f5ec0e22b209610a5aefdcc6e91bff2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 16:37:47</sys_updated_on>
+        <value>8a0e4ca22b209610a5aefdcc6e91bf52,4e0e4ca22b209610a5aefdcc6e91bf52</value>
+        <variable display_value="Lanes">9a070e1ac3e02110f1f504186e40ddd2</variable>
+    </sys_variable_value>
+    <sys_pd_activity action="delete_multiple" query="process_definition=c20e4ca22b209610a5aefdcc6e91bf52^sys_idNOT IN420e4ca22b209610a5aefdcc6e91bf53,460e4ca22b209610a5aefdcc6e91bf52,8e0e4ca22b209610a5aefdcc6e91bf52,ca0e4ca22b209610a5aefdcc6e91bf52,0a0e4ca22b209610a5aefdcc6e91bf52,0e0e4ca22b209610a5aefdcc6e91bf52,820e4ca22b209610a5aefdcc6e91bf53,ce0e4ca22b209610a5aefdcc6e91bf52,4a0e4ca22b209610a5aefdcc6e91bf52"/>
+    <sys_pd_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_definition display_value="Placeholder">ceac99e01b3f0010affd0e55cc4bcb83</activity_definition>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description>Handle the approved warranty claim</description>
+        <inputs/>
+        <label>Process Approved Claim</label>
+        <lane display_value="Approved Claim Sub-process">020e4ca22b209610a5aefdcc6e91bf53</lane>
+        <name>process_approved_claim</name>
+        <order>1</order>
+        <outputs/>
+        <process_definition display_value="Claims assessment process">c20e4ca22b209610a5aefdcc6e91bf52</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
+        <start_rule_vars/>
+        <swim_lane/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 16:37:47</sys_created_on>
+        <sys_id>420e4ca22b209610a5aefdcc6e91bf53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 16:37:47</sys_updated_on>
+        <type_vals/>
+        <variant/>
+    </sys_pd_activity>
+    <sys_translated_text action="delete_multiple" query="documentkey=420e4ca22b209610a5aefdcc6e91bf53"/>
+    <sys_variable_value action="delete_multiple" query="document_key=420e4ca22b209610a5aefdcc6e91bf53"/>
+    <sys_pd_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_definition display_value="Placeholder">ceac99e01b3f0010affd0e55cc4bcb83</activity_definition>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description>Collect model and serial number of the product</description>
+        <inputs/>
+        <label>Gather Product Information</label>
+        <lane display_value="Information Gathering">060e4ca22b209610a5aefdcc6e91bf52</lane>
+        <name>gather_product_information</name>
+        <order>1</order>
+        <outputs/>
+        <process_definition display_value="Claims assessment process">c20e4ca22b209610a5aefdcc6e91bf52</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
+        <start_rule_vars/>
+        <swim_lane/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 16:37:47</sys_created_on>
+        <sys_id>460e4ca22b209610a5aefdcc6e91bf52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 16:37:47</sys_updated_on>
+        <type_vals/>
+        <variant/>
+    </sys_pd_activity>
+    <sys_translated_text action="delete_multiple" query="documentkey=460e4ca22b209610a5aefdcc6e91bf52"/>
+    <sys_variable_value action="delete_multiple" query="document_key=460e4ca22b209610a5aefdcc6e91bf52"/>
+    <sys_pd_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_definition display_value="Placeholder">ceac99e01b3f0010affd0e55cc4bcb83</activity_definition>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description>Use the purchase date to determine how many days have passed since purchase</description>
+        <inputs/>
+        <label>Check Purchase Date</label>
+        <lane display_value="Warranty Coverage Check">4e0e4ca22b209610a5aefdcc6e91bf52</lane>
+        <name>check_purchase_date</name>
+        <order>1</order>
+        <outputs/>
+        <process_definition display_value="Claims assessment process">c20e4ca22b209610a5aefdcc6e91bf52</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
+        <start_rule_vars/>
+        <swim_lane/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 16:37:47</sys_created_on>
+        <sys_id>8e0e4ca22b209610a5aefdcc6e91bf52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 16:37:47</sys_updated_on>
+        <type_vals/>
+        <variant/>
+    </sys_pd_activity>
+    <sys_translated_text action="delete_multiple" query="documentkey=8e0e4ca22b209610a5aefdcc6e91bf52"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8e0e4ca22b209610a5aefdcc6e91bf52"/>
+    <sys_pd_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_definition display_value="Placeholder">ceac99e01b3f0010affd0e55cc4bcb83</activity_definition>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description>Verify if the fault is related to an existing known issue or recall</description>
+        <inputs/>
+        <label>Check Known Issues</label>
+        <lane display_value="Product Fault Analysis">8a0e4ca22b209610a5aefdcc6e91bf52</lane>
+        <name>check_known_issues</name>
+        <order>1</order>
+        <outputs/>
+        <process_definition display_value="Claims assessment process">c20e4ca22b209610a5aefdcc6e91bf52</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
+        <start_rule_vars/>
+        <swim_lane/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 16:37:47</sys_created_on>
+        <sys_id>ca0e4ca22b209610a5aefdcc6e91bf52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 16:37:47</sys_updated_on>
+        <type_vals/>
+        <variant/>
+    </sys_pd_activity>
+    <sys_translated_text action="delete_multiple" query="documentkey=ca0e4ca22b209610a5aefdcc6e91bf52"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ca0e4ca22b209610a5aefdcc6e91bf52"/>
+    <sys_pd_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_definition display_value="Placeholder">ceac99e01b3f0010affd0e55cc4bcb83</activity_definition>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description>Record the issue with the product</description>
+        <inputs/>
+        <label>Document Product Issue</label>
+        <lane display_value="Information Gathering">060e4ca22b209610a5aefdcc6e91bf52</lane>
+        <name>document_product_issue</name>
+        <order>2</order>
+        <outputs/>
+        <process_definition display_value="Claims assessment process">c20e4ca22b209610a5aefdcc6e91bf52</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="After Activities">7abaf173c35101102a86cb03b940dd62</start_rule>
+        <start_rule_vars/>
+        <swim_lane/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 16:37:47</sys_created_on>
+        <sys_id>0a0e4ca22b209610a5aefdcc6e91bf52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 16:37:47</sys_updated_on>
+        <type_vals/>
+        <variant/>
+    </sys_pd_activity>
+    <sys_translated_text action="delete_multiple" query="documentkey=0a0e4ca22b209610a5aefdcc6e91bf52"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0a0e4ca22b209610a5aefdcc6e91bf52"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>0a0e4ca22b209610a5aefdcc6e91bf52</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 16:37:47</sys_created_on>
+        <sys_id>535e04e22b209610a5aefdcc6e91bf07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 16:37:47</sys_updated_on>
+        <value/>
+        <variable display_value="Branches">1dc0af0bc7311110bfbaf89f51c26029</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>0a0e4ca22b209610a5aefdcc6e91bf52</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 16:37:47</sys_created_on>
+        <sys_id>9f5e04e22b209610a5aefdcc6e91bf06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 16:37:47</sys_updated_on>
+        <value>460e4ca22b209610a5aefdcc6e91bf52</value>
+        <variable display_value="Activities">66b6c23fc35101102a86cb03b940dd29</variable>
+    </sys_variable_value>
+    <sys_pd_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_definition display_value="Placeholder">ceac99e01b3f0010affd0e55cc4bcb83</activity_definition>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description>Initiate the warranty claim process</description>
+        <inputs/>
+        <label>Process Warranty Claim</label>
+        <lane display_value="Product Fault Analysis">8a0e4ca22b209610a5aefdcc6e91bf52</lane>
+        <name>process_warranty_claim</name>
+        <order>2</order>
+        <outputs/>
+        <process_definition display_value="Claims assessment process">c20e4ca22b209610a5aefdcc6e91bf52</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="After Activities">7abaf173c35101102a86cb03b940dd62</start_rule>
+        <start_rule_vars/>
+        <swim_lane/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 16:37:47</sys_created_on>
+        <sys_id>0e0e4ca22b209610a5aefdcc6e91bf52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 16:37:47</sys_updated_on>
+        <type_vals/>
+        <variant/>
+    </sys_pd_activity>
+    <sys_translated_text action="delete_multiple" query="documentkey=0e0e4ca22b209610a5aefdcc6e91bf52"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0e0e4ca22b209610a5aefdcc6e91bf52"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>0e0e4ca22b209610a5aefdcc6e91bf52</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 16:37:47</sys_created_on>
+        <sys_id>975e04e22b209610a5aefdcc6e91bf1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 16:37:47</sys_updated_on>
+        <value/>
+        <variable display_value="Branches">1dc0af0bc7311110bfbaf89f51c26029</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>0e0e4ca22b209610a5aefdcc6e91bf52</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 16:37:47</sys_created_on>
+        <sys_id>d35e04e22b209610a5aefdcc6e91bf1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 16:37:47</sys_updated_on>
+        <value>ca0e4ca22b209610a5aefdcc6e91bf52</value>
+        <variable display_value="Activities">66b6c23fc35101102a86cb03b940dd29</variable>
+    </sys_variable_value>
+    <sys_pd_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_definition display_value="Placeholder">ceac99e01b3f0010affd0e55cc4bcb83</activity_definition>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description>Make a decision to offer a repair at a cash rate or a discount on a replacement product</description>
+        <inputs/>
+        <label>Offer Repair or Replacement</label>
+        <lane display_value="Approved Claim Sub-process">020e4ca22b209610a5aefdcc6e91bf53</lane>
+        <name>offer_repair_or_replacement</name>
+        <order>2</order>
+        <outputs/>
+        <process_definition display_value="Claims assessment process">c20e4ca22b209610a5aefdcc6e91bf52</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="After Activities">7abaf173c35101102a86cb03b940dd62</start_rule>
+        <start_rule_vars/>
+        <swim_lane/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 16:37:47</sys_created_on>
+        <sys_id>820e4ca22b209610a5aefdcc6e91bf53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 16:37:47</sys_updated_on>
+        <type_vals/>
+        <variant/>
+    </sys_pd_activity>
+    <sys_translated_text action="delete_multiple" query="documentkey=820e4ca22b209610a5aefdcc6e91bf53"/>
+    <sys_variable_value action="delete_multiple" query="document_key=820e4ca22b209610a5aefdcc6e91bf53"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>820e4ca22b209610a5aefdcc6e91bf53</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 16:37:47</sys_created_on>
+        <sys_id>975e04e22b209610a5aefdcc6e91bf25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 16:37:47</sys_updated_on>
+        <value/>
+        <variable display_value="Branches">1dc0af0bc7311110bfbaf89f51c26029</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>820e4ca22b209610a5aefdcc6e91bf53</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 16:37:47</sys_created_on>
+        <sys_id>d35e04e22b209610a5aefdcc6e91bf25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 16:37:47</sys_updated_on>
+        <value>420e4ca22b209610a5aefdcc6e91bf53</value>
+        <variable display_value="Activities">66b6c23fc35101102a86cb03b940dd29</variable>
+    </sys_variable_value>
+    <sys_pd_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_definition display_value="Placeholder">ceac99e01b3f0010affd0e55cc4bcb83</activity_definition>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description>Inform the customer about the quickest resolution based on purchase date</description>
+        <inputs/>
+        <label>Inform Customer</label>
+        <lane display_value="Warranty Coverage Check">4e0e4ca22b209610a5aefdcc6e91bf52</lane>
+        <name>inform_customer</name>
+        <order>2</order>
+        <outputs/>
+        <process_definition display_value="Claims assessment process">c20e4ca22b209610a5aefdcc6e91bf52</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="After Activities">7abaf173c35101102a86cb03b940dd62</start_rule>
+        <start_rule_vars/>
+        <swim_lane/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 16:37:47</sys_created_on>
+        <sys_id>ce0e4ca22b209610a5aefdcc6e91bf52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 16:37:47</sys_updated_on>
+        <type_vals/>
+        <variant/>
+    </sys_pd_activity>
+    <sys_translated_text action="delete_multiple" query="documentkey=ce0e4ca22b209610a5aefdcc6e91bf52"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ce0e4ca22b209610a5aefdcc6e91bf52"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>ce0e4ca22b209610a5aefdcc6e91bf52</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 16:37:47</sys_created_on>
+        <sys_id>975e04e22b209610a5aefdcc6e91bf20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 16:37:47</sys_updated_on>
+        <value/>
+        <variable display_value="Branches">1dc0af0bc7311110bfbaf89f51c26029</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>ce0e4ca22b209610a5aefdcc6e91bf52</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 16:37:47</sys_created_on>
+        <sys_id>d35e04e22b209610a5aefdcc6e91bf20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 16:37:47</sys_updated_on>
+        <value>8e0e4ca22b209610a5aefdcc6e91bf52</value>
+        <variable display_value="Activities">66b6c23fc35101102a86cb03b940dd29</variable>
+    </sys_variable_value>
+    <sys_pd_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_definition display_value="Placeholder">ceac99e01b3f0010affd0e55cc4bcb83</activity_definition>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description>Determine if the issue is related to improper use or user error</description>
+        <inputs/>
+        <label>Check for Improper Use</label>
+        <lane display_value="Information Gathering">060e4ca22b209610a5aefdcc6e91bf52</lane>
+        <name>check_for_improper_use</name>
+        <order>3</order>
+        <outputs/>
+        <process_definition display_value="Claims assessment process">c20e4ca22b209610a5aefdcc6e91bf52</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="After Activities">7abaf173c35101102a86cb03b940dd62</start_rule>
+        <start_rule_vars/>
+        <swim_lane/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 16:37:47</sys_created_on>
+        <sys_id>4a0e4ca22b209610a5aefdcc6e91bf52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 16:37:47</sys_updated_on>
+        <type_vals/>
+        <variant/>
+    </sys_pd_activity>
+    <sys_translated_text action="delete_multiple" query="documentkey=4a0e4ca22b209610a5aefdcc6e91bf52"/>
+    <sys_variable_value action="delete_multiple" query="document_key=4a0e4ca22b209610a5aefdcc6e91bf52"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>4a0e4ca22b209610a5aefdcc6e91bf52</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 16:37:47</sys_created_on>
+        <sys_id>1f5e04e22b209610a5aefdcc6e91bf09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 16:37:47</sys_updated_on>
+        <value>0a0e4ca22b209610a5aefdcc6e91bf52</value>
+        <variable display_value="Activities">66b6c23fc35101102a86cb03b940dd29</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>4a0e4ca22b209610a5aefdcc6e91bf52</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 16:37:47</sys_created_on>
+        <sys_id>df5e04e22b209610a5aefdcc6e91bf09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 16:37:47</sys_updated_on>
+        <value/>
+        <variable display_value="Branches">1dc0af0bc7311110bfbaf89f51c26029</variable>
+    </sys_variable_value>
+    <sys_pd_process_variant action="delete_multiple" query="process_definition=c20e4ca22b209610a5aefdcc6e91bf52^sys_idNOT IN45b0f99045b062a045b07ce045b0fca0"/>
+    <sys_pd_process_variant action="INSERT_OR_UPDATE">
+        <color>purple</color>
+        <condition>priority=1</condition>
+        <designer_state>{"diagram":{"hiddenElements":{"edges":{}}}}</designer_state>
+        <favorite>false</favorite>
+        <label>Critical</label>
+        <order>1</order>
+        <parent_variant/>
+        <process_definition display_value="Claims assessment process">c20e4ca22b209610a5aefdcc6e91bf52</process_definition>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 04:12:52</sys_created_on>
+        <sys_id>45b0f99045b062a045b07ce045b0fca0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 04:12:52</sys_updated_on>
+    </sys_pd_process_variant>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=0a0e4ca22b209610a5aefdcc6e91bf52"/>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=0e0e4ca22b209610a5aefdcc6e91bf52"/>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=420e4ca22b209610a5aefdcc6e91bf53"/>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=460e4ca22b209610a5aefdcc6e91bf52"/>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=4a0e4ca22b209610a5aefdcc6e91bf52"/>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=820e4ca22b209610a5aefdcc6e91bf53"/>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=8e0e4ca22b209610a5aefdcc6e91bf52"/>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=ca0e4ca22b209610a5aefdcc6e91bf52"/>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=ce0e4ca22b209610a5aefdcc6e91bf52"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=0a0e4ca22b209610a5aefdcc6e91bf52"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=0e0e4ca22b209610a5aefdcc6e91bf52"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=420e4ca22b209610a5aefdcc6e91bf53"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=460e4ca22b209610a5aefdcc6e91bf52"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=4a0e4ca22b209610a5aefdcc6e91bf52"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=820e4ca22b209610a5aefdcc6e91bf53"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=8e0e4ca22b209610a5aefdcc6e91bf52"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=ca0e4ca22b209610a5aefdcc6e91bf52"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=ce0e4ca22b209610a5aefdcc6e91bf52"/>
+    <sys_pd_snapshot action="delete_multiple" query="sys_id="/>
+    <sys_json_chunk action="delete_multiple" query="document_id="/>
+    <sys_pd_snapshot_chunk action="delete_multiple" query="document_id="/>
+    <sys_pd_trigger_instance action="delete_multiple" query="sys_id=0b1f9500b1aef00b1d0600b14d900b1b^sys_idNOT IN0b1f9500b1aef00b1d0600b14d900b1b"/>
+    <sys_pd_trigger_instance action="INSERT_OR_UPDATE">
+        <label/>
+        <name/>
+        <process_definition display_value="Claims assessment process">c20e4ca22b209610a5aefdcc6e91bf52</process_definition>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 04:11:16</sys_created_on>
+        <sys_id>0b1f9500b1aef00b1d0600b14d900b1b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 04:11:17</sys_updated_on>
+        <trigger_definition/>
+        <trigger_inputs/>
+        <trigger_type display_value="Record Create">ab6951170f1200108c87f4f0ff767e4f</trigger_type>
+    </sys_pd_trigger_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=0b1f9500b1aef00b1d0600b14d900b1b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0b1f9500b1aef00b1d0600b14d900b1b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_trigger_instance</document>
+        <document_key>0b1f9500b1aef00b1d0600b14d900b1b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 04:11:17</sys_created_on>
+        <sys_id>4625549b3ba3121062736c1c95e45a30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 04:11:17</sys_updated_on>
+        <value>x_snc_w_claims_claim</value>
+        <variable display_value="Table">a8ae38d1ff2200108c8733af793bf15c</variable>
+    </sys_variable_value>
+    <sys_pd_process_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <description>A workflow for handling product warranty claims</description>
+        <designer_state>{"diagram":{"hiddenElements":{"edges":{}}}}</designer_state>
+        <engine_major_version/>
+        <label>Claims assessment process</label>
+        <name>claims_assessment_process</name>
+        <now_assist_prompt>It begins with gathering information about the product for example: model and serial number. Document the issue with the product and check to see if the issue is related to improper use or user error. Once it's determined to be a genuine product fault, check if the fault is related to an existing known issue or recall. If it is, process the warranty claim, see "approved claim sub-process". If no known issue or recall matches the fault description, ensure that the product is still covered under warranty. To check coverage use the purchase date to determine how many days have passed since purchase. If less than 30 days, inform the customer the quickest resolution is to return the product to the place of purchase for a refund or exchange. If 30 days have passed, but less than the warranty period, begin the "approved claim sub-process". If the warranty period has expired, make a decision to offer the customer a repair at a cash rate, or a discount on a replacement product.</now_assist_prompt>
+        <process_type/>
+        <restartable>RESTARTABLE_FALSE</restartable>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <schema_version>2</schema_version>
+        <snapshot/>
+        <start_non_blocking>true</start_non_blocking>
+        <status>draft</status>
+        <sync_state>COMPLETE</sync_state>
+        <synced_on/>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 16:37:46</sys_created_on>
+        <sys_id>c20e4ca22b209610a5aefdcc6e91bf52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Claims assessment process</sys_name>
+        <sys_package display_value="Warranty Claims" source="x_snc_w_claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warranty Claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_scope>
+        <sys_update_name>sys_pd_process_definition_c20e4ca22b209610a5aefdcc6e91bf52</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 04:12:53</sys_updated_on>
+        <view_type>DIAGRAM</view_type>
+    </sys_pd_process_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=c20e4ca22b209610a5aefdcc6e91bf52"/>
+</record_update>

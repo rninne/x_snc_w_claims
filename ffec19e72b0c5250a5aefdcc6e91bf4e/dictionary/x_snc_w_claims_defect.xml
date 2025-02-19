@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2d3db99e2b645610a5aefdcc6e91bfad" label="Defect" max_length="40" name="x_snc_w_claims_defect" type="collection"/>
+</database>

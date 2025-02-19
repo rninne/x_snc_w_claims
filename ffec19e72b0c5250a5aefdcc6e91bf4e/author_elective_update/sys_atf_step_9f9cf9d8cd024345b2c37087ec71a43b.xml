@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>false</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Impersonate the user: System Administrator with user Id: admin</description>
+        <display_name>Impersonate</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:21:44</sys_created_on>
+        <sys_id>9f9cf9d8cd024345b2c37087ec71a43b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Impersonate</sys_name>
+        <sys_package display_value="Warranty Claims" source="x_snc_w_claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warranty Claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_scope>
+        <sys_update_name>sys_atf_step_9f9cf9d8cd024345b2c37087ec71a43b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:21:48</sys_updated_on>
+        <table/>
+        <test display_value="Steve Warranty test test">1c49888435004ac58d0fa524a60c9367</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=9f9cf9d8cd024345b2c37087ec71a43b"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>9f9cf9d8cd024345b2c37087ec71a43b</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:21:44</sys_created_on>
+        <sys_id>c4148a12aa21414fa414b2ebf0ecb7a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:21:44</sys_updated_on>
+        <value>6816f79cc0a8016401c5a33be04be441</value>
+        <variable display_value="User">586e2c4253e0220002c6435723dc3415</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_071ee5b253331200040729cac2dc348d^id=9f9cf9d8cd024345b2c37087ec71a43b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Warranty Claims">ffec19e72b0c5250a5aefdcc6e91bf4e</application>
+        <file_path/>
+        <instance_id>cdba8ae7eb9fc690cbbffceacad0cdb9</instance_id>
+        <instance_name>na4cr</instance_name>
+        <name>sys_atf_step_9f9cf9d8cd024345b2c37087ec71a43b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>false</active><callable_outputs/><copied_from/><description>Impersonate the user: System Administrator with user Id: admin</description><display_name>Impersonate</display_name><inputs/><mugshots_cache_json/><notes/><order>1</order><step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-11 14:21:44</sys_created_on><sys_id>9f9cf9d8cd024345b2c37087ec71a43b</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Impersonate</sys_name><sys_package display_value="Warranty Claims" source="x_snc_w_claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_package><sys_policy/><sys_scope display_value="Warranty Claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_scope><sys_update_name>sys_atf_step_9f9cf9d8cd024345b2c37087ec71a43b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-11 14:21:48</sys_updated_on><table/><test display_value="Steve Warranty test test">1c49888435004ac58d0fa524a60c9367</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=9f9cf9d8cd024345b2c37087ec71a43b"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>9f9cf9d8cd024345b2c37087ec71a43b</document_key><order/><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-11 14:21:44</sys_created_on><sys_id>c4148a12aa21414fa414b2ebf0ecb7a5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-11 14:21:44</sys_updated_on><value>6816f79cc0a8016401c5a33be04be441</value><variable display_value="User">586e2c4253e0220002c6435723dc3415</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_071ee5b253331200040729cac2dc348d^id=9f9cf9d8cd024345b2c37087ec71a43b"/></record_update>]]></payload>
+        <payload_hash>498249827</payload_hash>
+        <record_name>Impersonate</record_name>
+        <reverted_from/>
+        <source>9d8ab0f12b101610a5aefdcc6e91bf49</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:21:48</sys_created_on>
+        <sys_id>49e0a25b2beb1210a5aefdcc6e91bf17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194f56339610000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:21:48</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>4de0a25be5eb121042781b8297dfb116</update_guid>
+        <update_guid_history>4de0a25be5eb121042781b8297dfb116:498249827,c1e0625b59eb1210d4919a7ac978c7cb:1826359356,54e0625bfdeb121088f3e72bef704f59:-1820494680</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:22:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>7796e27551d740089002cfdb974efb10</sys_id>
+        <sys_metadata>9f9cf9d8cd024345b2c37087ec71a43b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Impersonate</sys_name>
+        <sys_package display_value="Warranty Claims" source="x_snc_w_claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Warranty Claims">ffec19e72b0c5250a5aefdcc6e91bf4e</sys_scope>
+        <sys_scope_delete display_value="">086d9746d69e4ddc985271de4a0a1429</sys_scope_delete>
+        <sys_update_name>sys_atf_step_9f9cf9d8cd024345b2c37087ec71a43b</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_9f9cf9d8cd024345b2c37087ec71a43b">49e0a25b2beb1210a5aefdcc6e91bf17</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:22:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
